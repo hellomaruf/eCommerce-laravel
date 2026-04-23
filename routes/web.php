@@ -104,3 +104,7 @@ Route::get('blogs', function () {
 
     return view('layouts.web.blogs', compact('blogTitle', 'blogsData'));
 });
+
+Route::get('blogs/{slug}', function ($slug) {
+    return view('layouts.web.blogs-details', compact('slug'));
+});
