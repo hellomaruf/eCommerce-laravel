@@ -12,7 +12,9 @@
 
 <body class="font-['Inter',sans-serif] bg-[#f0f0f0] text-[#111111] text-sm min-w-[320px]">
     @include('layouts.web.partials.header')
-    @yield('content')
+    <div class="min-h-screen">
+        @yield('content')
+    </div>
     @include('layouts.web.partials.footer')
 
     <script src="{{ asset('assets/js/script.js') }}"></script>
