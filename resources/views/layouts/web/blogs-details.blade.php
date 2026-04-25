@@ -55,7 +55,7 @@
                 <div class="relative rounded-2xl overflow-hidden h-[220px] group cursor-pointer">
                     <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600" alt="Next Article"
                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+                    <div class="absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent"></div>
                     <div class="absolute top-4 left-4">
                         <span class="bg-[#d4edda] text-[#155724] text-[0.7rem] font-medium py-1 px-3 rounded-full">
                             Accounts payable
@@ -72,7 +72,7 @@
                 <div class="relative rounded-2xl overflow-hidden h-[220px] group cursor-pointer">
                     <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600" alt="Next Article"
                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+                    <div class="absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent"></div>
                     <div class="absolute top-4 left-4">
                         <span class="bg-[#d4edda] text-[#155724] text-[0.7rem] font-medium py-1 px-3 rounded-full">
                             Business growth
@@ -89,7 +89,7 @@
                 <div class="relative rounded-2xl overflow-hidden h-[220px] group cursor-pointer">
                     <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600" alt="Next Article"
                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+                    <div class="absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent"></div>
                     <div class="absolute top-4 left-4">
                         <span class="bg-[#d4edda] text-[#155724] text-[0.7rem] font-medium py-1 px-3 rounded-full">
                             Accounts payable
