@@ -18,8 +18,7 @@
 
         {{-- Featured Image --}}
         <div class="w-full rounded-2xl overflow-hidden mb-10">
-            <img src="{{ $blog->image }}" alt="{{ $blog->title }}"
-                class="w-full h-auto object-cover" />
+            <img src="{{ $blog->image }}" alt="{{ $blog->title }}" class="w-full h-auto object-cover" />
         </div>
 
         {{-- Blog Content --}}
@@ -37,12 +36,14 @@
             <div class="flex items-center justify-between mb-8">
                 <h2 class="text-[1.5rem] md:text-[1.8rem] font-bold text-[#111]">Read Our Next Article</h2>
                 <div class="flex items-center gap-3">
-                    <button class="w-10 h-10 rounded-full border border-[#ccc] flex items-center justify-center text-[#333] hover:bg-[#f5f5f5] transition-colors">
+                    <button
+                        class="w-10 h-10 rounded-full border border-[#ccc] flex items-center justify-center text-[#333] hover:bg-[#f5f5f5] transition-colors">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polyline points="15 18 9 12 15 6"></polyline>
                         </svg>
                     </button>
-                    <button class="w-10 h-10 rounded-full border border-[#ccc] flex items-center justify-center text-[#333] hover:bg-[#f5f5f5] transition-colors">
+                    <button
+                        class="w-10 h-10 rounded-full border border-[#ccc] flex items-center justify-center text-[#333] hover:bg-[#f5f5f5] transition-colors">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polyline points="9 18 15 12 9 6"></polyline>
                         </svg>
